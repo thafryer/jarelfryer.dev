@@ -1,13 +1,20 @@
+import { useState } from 'react'
 import Head from 'next/head'
 import Link from 'next/link'
 
 export default function Uses() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false)
+
   return (
     <>
       <Head>
         <title>Jarel Fryer | Uses</title>
       </Head>
-      <div className="min-h-screen px-4 md:px-0 sm:max-w-xl sm:max-w-2xl lg:max-w-3xl xl:max-w-7xl py-12 mx-auto flex flex-col font-sans antialiased">
+      <div
+        className={`min-h-screen px-4 md:px-0 sm:max-w-xl sm:max-w-2xl lg:max-w-3xl xl:max-w-7xl py-12 mx-auto flex flex-col font-sans antialiased ${
+          isMenuOpen ? 'scrolling-auto overflow-hidden fixed inset-x-0' : ''
+        }`}
+      >
         <header>
           <nav className="flex items-center justify-between">
             <div className="uppercase text-xl md:text-2xl tracking-wide">
@@ -17,7 +24,7 @@ export default function Uses() {
                 </a>
               </Link>
             </div>
-            <ul className="flex flex-row space-x-4 uppercase text-gray-500 font-semibold tracking-wide text-sm">
+            <ul className="hidden md:flex flex-row space-x-4 uppercase text-gray-500 font-semibold tracking-wide text-sm">
               <li>
                 <Link href="/uses">
                   <a>Uses</a>
@@ -26,8 +33,59 @@ export default function Uses() {
               <li>Articles</li>
               <li>Work Journal</li>
             </ul>
+            <button
+              className="block md:hidden"
+              onClick={() => setIsMenuOpen((prevState) => !prevState)}
+            >
+              {isMenuOpen ? (
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  className="block text-black h-6 w-6"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M6 18L18 6M6 6l12 12"
+                  />
+                </svg>
+              ) : (
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  className="block text-black h-6 w-6"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M4 6h16M4 12h16M4 18h16"
+                  />
+                </svg>
+              )}
+            </button>
           </nav>
         </header>
+        <div
+          className={`md:hidden bg-white z-30 fixed inset-0 mt-24 ${
+            isMenuOpen ? 'block' : 'hidden'
+          }`}
+        >
+          <ul className="max-h-full md:flex flex-row space-y-4 px-4 uppercase text-gray-500 font-semibold tracking-wide text-lg">
+            <li>
+              <Link href="/uses">
+                <a>Uses</a>
+              </Link>
+            </li>
+            <li>Articles</li>
+            <li>Work Journal</li>
+          </ul>
+        </div>
         <main>
           <section className="py-6 md:max-w-3xl mx-auto">
             <article className="text-center">
