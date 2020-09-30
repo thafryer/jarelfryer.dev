@@ -112,7 +112,7 @@ export default function Uses() {
             </article>
           </section>
           <section className="py-4">
-            <h2 className="uppercase font-bold tracking-wide text-xl">
+            <h2 className="uppercase font-bold tracking-wide text-2xl">
               Tech Stack
             </h2>
             <article className="py-3 grid grid-cols-2 sm:grid-cols-6 justify-center items-center">
@@ -241,7 +241,7 @@ export default function Uses() {
             </article>
           </section>
           <section className="py-4">
-            <h2 className="uppercase font-bold tracking-wide text-xl">
+            <h2 className="uppercase font-bold tracking-wide text-2xl">
               Currently Learning
             </h2>
             <article className="py-3 grid grid-cols-2 sm:grid-cols-6 justify-center items-center">
@@ -295,16 +295,63 @@ export default function Uses() {
               </div>
             </article>
           </section>
-          <section className="py-4">
-            <h2 className="uppercase font-bold tracking-wide text-xl">
-              Software/Apps
-            </h2>
-          </section>
-          <section className="py-4">
-            <h2 className="uppercase font-bold tracking-wide text-xl">
-              Workstation
-            </h2>
-          </section>
+          <div className="grid grid-cols-1 sm:grid-cols-2">
+            <section className="py-4">
+              <h2 className="uppercase font-bold tracking-wide text-2xl">
+                Software/Apps
+              </h2>
+              <p className="grid grid-cols-1 sm:grid-cols-2 gap-y-6 text-lg text-gray-600 py-2">
+                <ul className="space-y-1 list-disc">
+                  <li>Visual Studio Code</li>
+                  <li>Clubhouse</li>
+                  <li>Basecamp 3</li>
+                  <li>Hyper Terminal</li>
+                </ul>
+                <ul className="space-y-1 list-disc">
+                  <li>Google Chrome</li>
+                  <li>Adobe XD (Work)</li>
+                  <li>Figma (Personal)</li>
+                  <li>Sizzy</li>
+                </ul>
+                <ul className="space-y-1 list-disc">
+                  <li>Termius</li>
+                  <li>Magnet</li>
+                  <li>Bumpr</li>
+                  <li>Discord</li>
+                </ul>
+                <ul className="space-y-1 list-disc">
+                  <li>Slack</li>
+                  <li>Zoom</li>
+                </ul>
+              </p>
+            </section>
+            <section className="py-4">
+              <h2 className="uppercase font-bold tracking-wide text-2xl">
+                Workstation
+              </h2>
+              <p className="grid grid-cols-1 sm:grid-cols-2 gap-y-2 text-lg text-gray-600 py-2">
+                <ul className="space-y-1 list-disc">
+                  <li>
+                    MacBook Pro 16-inch, 2019
+                    <ul className="pl-4 space-y-1 list-disc">
+                      <li>2.6 GHz 6-Core Intel Core i7</li>
+                      <li>16 GB 2667 MHz DDR4</li>
+                      <li>AMD Radeon Pro 5300M 4 GB</li>
+                      <li>500GB Storage</li>
+                    </ul>
+                  </li>
+                </ul>
+                <ul className="space-y-1 list-disc">
+                  <li>LG 32` Curved Monitor</li>
+                  <li>Apple Magic Mouse</li>
+                  <li>Logitech MX Keys</li>
+                  <li>Autonomous Desk 2</li>
+                  <li>Apple AirPods</li>
+                  <li>A Nice Office Chair</li>
+                </ul>
+              </p>
+            </section>
+          </div>
         </main>
         <footer className="text-center text-gray-500">
           <span>Jarel Fryer &copy; 1996 - {new Date().getFullYear()}</span>
