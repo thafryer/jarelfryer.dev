@@ -23,14 +23,14 @@ export default function Home() {
       >
         <header>
           <nav className="flex items-center justify-between">
-            <div className="uppercase text-xl md:text-2xl tracking-wide">
+            <div className="text-xl tracking-wide uppercase md:text-2xl">
               <Link href="/">
                 <a>
                   Jarel<span className="font-bold">Fryer</span>
                 </a>
               </Link>
             </div>
-            <ul className="hidden md:flex flex-row space-x-4 uppercase text-gray-500 font-semibold tracking-wide text-sm">
+            <ul className="flex-row hidden space-x-4 text-sm font-semibold tracking-wide text-gray-500 uppercase md:flex">
               <li>
                 <Link href="/uses">
                   <a>Uses</a>
@@ -48,7 +48,7 @@ export default function Home() {
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
-                  className="block text-black h-6 w-6"
+                  className="block w-6 h-6 text-black"
                   stroke="currentColor"
                 >
                   <path
@@ -63,7 +63,7 @@ export default function Home() {
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
-                  className="block text-black h-6 w-6"
+                  className="block w-6 h-6 text-black"
                   stroke="currentColor"
                 >
                   <path
@@ -82,7 +82,7 @@ export default function Home() {
             isMenuOpen ? 'block' : 'hidden'
           }`}
         >
-          <ul className="max-h-full md:flex flex-row space-y-4 px-4 uppercase text-gray-500 font-semibold tracking-wide text-lg">
+          <ul className="flex-row max-h-full px-4 space-y-4 text-lg font-semibold tracking-wide text-gray-500 uppercase md:flex">
             <li>
               <Link href="/uses">
                 <a>Uses</a>
@@ -93,13 +93,13 @@ export default function Home() {
           </ul>
         </div>
         <main>
-          <div className="py-6 md:max-w-3xl mx-auto">
-            <h1 className="font-bold text-4xl md:text-6xl leading-none">
-              <span className="bg-clip-text text-transparent bg-gradient-to-r from-teal-300 to-blue-600">
+          <div className="py-6 mx-auto md:max-w-3xl">
+            <h1 className="text-4xl font-bold leading-none md:text-6xl">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-300 to-blue-600">
                 Hello, I'm Jarel.
               </span>
             </h1>
-            <div className="text-gray-400 flex space-x-4 py-3">
+            <div className="flex py-3 space-x-4 text-gray-400">
               <a href="https://twitter.com/thafryer" target="_blank">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -144,8 +144,9 @@ export default function Home() {
                   />
                 </svg>
               </a>
+              <a href="/resume.pdf">Resume</a>
             </div>
-            <div className="py-3 text-gray-500 text-lg space-y-4">
+            <div className="py-3 space-y-4 text-lg text-gray-500">
               <p>I'm a full stack developer from the US 🇺🇸.</p>
               <p>
                 I am {calculate_age(new Date(1996, 12, 18))} years old and have
@@ -165,7 +166,7 @@ export default function Home() {
             <div className="relative" style={{ paddingTop: '70%' }}>
               <div className="absolute inset-0">
                 <img
-                  className="w-full h-full rounded-lg object-cover object-top"
+                  className="object-cover object-top w-full h-full rounded-lg"
                   style={{ objectPosition: '40% 25%' }}
                   src="/Jarel_Current.jpg"
                   alt="Jarel Fryer, The Full Stack Developer"
