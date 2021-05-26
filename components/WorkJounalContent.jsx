@@ -126,6 +126,7 @@ export const WorkJournalContent = () => {
               <li>Create a tutorial on using MDX with NextJS.</li>
               <li>Do a series of articles on wusing mock apis.</li>
               <li>Connect my Work Journal to a Headless CMS.</li>
+              <li>Use Github API to create a projects page.</li>
             </ul>
           </div>
 
