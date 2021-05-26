@@ -118,7 +118,7 @@ export const UsesContent = () => {
             Inspired by Wes Bos and Adam Wathan, I decided to add my own /uses
             page. I think it's a cool way to learn more about developers and
             their preferences. Check out{' '}
-            <a href="https://uses.tech" target="_blank">
+            <a href="https://uses.tech" target="_blank" rel="noopener">
               uses.tech
             </a>{' '}
             to see what developers are using across the world in their daily
@@ -140,7 +140,11 @@ const Workstation = () => (
   <ul>
     <li>
       My desk is an{' '}
-      <a href="https://www.autonomous.ai/standing-desks" target="_blank">
+      <a
+        href="https://www.autonomous.ai/standing-desks"
+        target="_blank"
+        rel="noopener"
+      >
         Autonomous Standing Desk
       </a>
       . I really love my desk and it definitely helps improve my productivity!
@@ -154,7 +158,11 @@ const Workstation = () => (
     <li>For work, I use a Macbook Pro. 💻</li>
     <li>
       For personal stuff, I use a{' '}
-      <a href="https://www.apple.com/shop/buy-mac/macbook-air/space-gray-apple-m1-chip-with-8-core-cpu-and-8-core-gpu-512gb">
+      <a
+        href="https://www.apple.com/shop/buy-mac/macbook-air/space-gray-apple-m1-chip-with-8-core-cpu-and-8-core-gpu-512gb"
+        target="_blank"
+        rel="noopener"
+      >
         2020 13" Macbook Air Apple M1 with 8-core CPU and 8-core GPU with 8GB
         memory
       </a>
@@ -166,6 +174,7 @@ const Workstation = () => (
       <a
         href="https://www.logitech.com/en-us/products/keyboards/mx-keys-wireless-keyboard.920-009294.html#buy-mx-keys-wireless-keyboard"
         target="_blank"
+        rel="noopener"
       >
         Logitech MX Keys
       </a>
@@ -176,13 +185,18 @@ const Workstation = () => (
       <a
         href="https://www.hypershop.com/collections/all/products/new-2020-hyperdrive-duo-7-in-2-usb-c-hub"
         target="_blank"
+        rel="noopener"
       >
         HYPERDRIVE DUO 7-in-2 USB-C Hub
       </a>
     </li>
     <li>
       I also use a{' '}
-      <a href="https://www.amazon.com/Quartet-Whiteboard-Desktop-Computer-GDP186/dp/B01M2DADUX/ref=asc_df_B01M2DADUX/?tag=hyprod-20&linkCode=df0&hvadid=167138897271&hvpos=&hvnetw=g&hvrand=18388470606216047487&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9013059&hvtargid=pla-314609211989&psc=1">
+      <a
+        href="https://www.amazon.com/Quartet-Whiteboard-Desktop-Computer-GDP186/dp/B01M2DADUX/ref=asc_df_B01M2DADUX/?tag=hyprod-20&linkCode=df0&hvadid=167138897271&hvpos=&hvnetw=g&hvrand=18388470606216047487&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9013059&hvtargid=pla-314609211989&psc=1"
+        target="_blank"
+        rel="noopener"
+      >
         Quartet Desktop Computer pad
       </a>{' '}
       for note taking and quick reminders.
@@ -198,6 +212,7 @@ const Development = () => (
       <a
         href="https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme"
         target="_blank"
+        rel="noopener"
       >
         Github Dark Dimmed
       </a>{' '}
@@ -205,7 +220,11 @@ const Development = () => (
     </li>
     <li>
       I use{' '}
-      <a href="https://www.jetbrains.com/lp/mono/" target="_blank">
+      <a
+        href="https://www.jetbrains.com/lp/mono/"
+        target="_blank"
+        rel="noopener"
+      >
         Jetbrains Mono
       </a>{' '}
       as my editor font. I love the uniqueness and ligatures of this font in my
@@ -219,19 +238,25 @@ const Development = () => (
       I do not have a favorite web browser. I tend to use all of the Big 3
       (Chrome, Firefox & Safari). However, for responsive design development, I
       use{' '}
-      <a href="https://sizzy.co/" target="_blank">
+      <a href="https://sizzy.co/" target="_blank" rel="noopener">
         Sizzy
       </a>
       .
     </li>
     <li>
       Currently, I host all my sites and applications (mainly use React/
-      <a href="https://nextjs.org/">NextJS</a>) on{' '}
-      <a href="https://vercel.com/" target="_blank">
+      <a href="https://nextjs.org/" target="_blank" rel="noopener">
+        NextJS
+      </a>
+      ) on{' '}
+      <a href="https://vercel.com/" target="_blank" rel="noopener">
         Vercel
       </a>
-      . Lately, I've been using <a href="https://supabase.io/">supabase</a> as a
-      hosted database service for my personal projects.
+      . Lately, I've been using{' '}
+      <a href="https://supabase.io/" target="_blank" rel="noopener">
+        supabase
+      </a>{' '}
+      as a hosted database service for my personal projects.
     </li>
   </ul>
 )

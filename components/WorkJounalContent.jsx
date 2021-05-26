@@ -127,6 +127,7 @@ export const WorkJournalContent = () => {
               <li>Do a series of articles on wusing mock apis.</li>
               <li>Connect my Work Journal to a Headless CMS.</li>
               <li>Use Github API to create a projects page.</li>
+              <li>Do a writeup on making NextJS site into a PWA.</li>
             </ul>
           </div>
 

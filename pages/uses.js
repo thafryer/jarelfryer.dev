@@ -9,6 +9,10 @@ export default function Uses() {
     <>
       <Head>
         <title>Jarel Fryer | Uses</title>
+        <meta
+          name="description"
+          content="Hi, I'm Jarel, a full stack developer from the US with a passion for building and innovation."
+        />
       </Head>
       <div
         className={`min-h-screen px-4 md:px-0 sm:max-w-2xl lg:max-w-3xl xl:max-w-7xl py-12 mx-auto flex flex-col font-sans antialiased ${
