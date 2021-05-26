@@ -208,7 +208,7 @@ const Development = () => (
   <ul>
     <li>
       My favorite editor for development is VS Code. I love the integrated
-      terminal and the communit support behind it. I am currently using the{' '}
+      terminal and the community support behind it. I am currently using the{' '}
       <a
         href="https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme"
         target="_blank"
