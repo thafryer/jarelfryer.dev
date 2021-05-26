@@ -1,14 +1,14 @@
 import { useState } from 'react'
 import Head from 'next/head'
-import { Header, Footer, UsesContent } from '../components'
+import { Header, Footer, PageContent, WorkJournalContent } from '../components'
 
-export default function Uses() {
+export default function WorkJournal() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   return (
     <>
       <Head>
-        <title>Jarel Fryer | Uses</title>
+        <title>Jarel Fryer | Work Journal</title>
       </Head>
       <div
         className={`min-h-screen px-4 md:px-0 sm:max-w-2xl lg:max-w-3xl xl:max-w-7xl py-12 mx-auto flex flex-col font-sans antialiased ${
@@ -17,7 +17,7 @@ export default function Uses() {
       >
         <Header isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
         <main>
-          <UsesContent />
+          <WorkJournalContent />
         </main>
         <Footer />
       </div>
