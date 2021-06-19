@@ -120,6 +120,14 @@ export const WorkJournalContent = () => {
         </div>
         <div className="mt-6 prose prose-blue prose-lg text-gray-500 mx-auto">
           <div>
+            <h2>Week of June 14th, 2021</h2>
+            <h3>Work ⚒</h3>
+            <ul>
+              <li>Became a Team Lead</li>
+              <li>Did a Deep Dive into Apollo Federation</li>
+            </ul>
+          </div>
+          <div>
             <h2>Week of May 24th, 2021</h2>
             <h3>Ideas 💡</h3>
             <ul>
