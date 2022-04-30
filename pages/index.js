@@ -133,7 +133,7 @@ export default function Home() {
               </div>
             </div>
             <div className="relative px-4 sm:px-6 lg:px-8">
-              <div className="prose prose-blue prose-lg text-gray-500 mx-auto">
+              <div className="prose prose-blue prose-lg text-gray-500 mx-auto prose-a:text-blue-600 hover:prose-a:text-blue-500">
                 <h1>
                   <span className="block text-lg text-blue-600 font-semibold tracking-wide uppercase">
                     Hello,

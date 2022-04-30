@@ -3,7 +3,7 @@ export const UsesContent = () => {
     <div className="relative py-16 bg-white overflow-hidden">
       <div className="hidden lg:block lg:absolute lg:inset-y-0 lg:h-full lg:w-full">
         <div
-          className="relative h-full text-lg max-w-prose mx-auto"
+          className="relative h-full text-lg max-w-prose mx-auto prose-a:text-blue-600 hover:prose-a:text-blue-500"
           aria-hidden="true"
         >
           <svg
@@ -105,7 +105,7 @@ export const UsesContent = () => {
         </div>
       </div>
       <div className="relative px-4 sm:px-6 lg:px-8">
-        <div className="text-lg max-w-prose prose-blue mx-auto">
+        <div className="text-lg max-w-prose prose-blue mx-auto prose-a:text-blue-600 hover:prose-a:text-blue-500">
           <h1>
             <span className="block text-base text-blue-600 font-semibold tracking-wide uppercase">
               My
@@ -125,7 +125,7 @@ export const UsesContent = () => {
             workflow.
           </p>
         </div>
-        <div className="mt-6 prose prose-blue prose-lg text-gray-500 mx-auto">
+        <div className="mt-6 prose prose-blue prose-lg text-gray-500 mx-auto prose-a:text-blue-600 hover:prose-a:text-blue-500">
           <h2>Workstation</h2>
           <Workstation />
           <h2>Development</h2>
