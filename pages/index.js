@@ -206,14 +206,14 @@ export default function Home() {
                 <div className="py-3 space-y-4 text-lg text-gray-500">
                   <p>
                     I'm a full stack developer from the US 🇺🇸. I currently work
-                    as a Software Engineer at{' '}
+                    as a Engineering Manager at{' '}
                     <a
                       className="font-semibold"
-                      href="https://www.commonbond.co/"
+                      href="https://www.chromatic.com/"
                       target="_blank"
                       rel="noopener"
                     >
-                      CommonBond
+                      Chromatic
                     </a>
                     .
                   </p>
